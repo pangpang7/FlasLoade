@@ -1,0 +1,189 @@
+Component: ARM Compiler 5.05 (build 41) Tool: armlink [4d0eb9]
+
+==============================================================================
+
+Section Cross References
+
+    startup_nuc122.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_nuc122.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_nuc122.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_nuc122.o(RESET) refers to startup_nuc122.o(STACK) for __initial_sp
+    startup_nuc122.o(RESET) refers to startup_nuc122.o(.text) for Reset_Handler
+    startup_nuc122.o(.text) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_nuc122.o(.text) refers to systeminit.o(.text) for SystemInit
+    startup_nuc122.o(.text) refers to startup_nuc122.o(HEAP) for Heap_Mem
+    startup_nuc122.o(.text) refers to startup_nuc122.o(STACK) for Stack_Mem
+    systeminit.o(.text) refers to mpu.o(.text) for iap_InitMPU
+    systeminit.o(.text) refers to jump2iap.o(.emb_text) for jump2iap
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing mpu.o(.rev16_text), (4 bytes).
+    Removing mpu.o(.revsh_text), (4 bytes).
+
+2 unused section(s) (total 8 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      192  startup_nuc122.o(RESET)
+    ../clib/heapaux.c                        0x00000000   Number         0  heapauxi.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    jump2iap.c                               0x00000000   Number         0  jump2iap.o ABSOLUTE
+    jump2iap.c                               0x00000000   Number         0  jump2iap.o ABSOLUTE
+    mpu.c                                    0x00000000   Number         0  mpu.o ABSOLUTE
+    mpu.c                                    0x00000000   Number         0  mpu.o ABSOLUTE
+    startup_NUC122.s                         0x00000000   Number         0  startup_nuc122.o ABSOLUTE
+    systeminit.c                             0x00000000   Number         0  systeminit.o ABSOLUTE
+    .emb_text                                0x000000c0   Section       12  jump2iap.o(.emb_text)
+    .text                                    0x000000cc   Section       84  startup_nuc122.o(.text)
+    Default_Handler                          0x000000f1   Thumb Code     2  startup_nuc122.o(.text)
+    .text                                    0x00000120   Section        0  systeminit.o(.text)
+    .text                                    0x00000340   Section        0  mpu.o(.text)
+    .text                                    0x00000394   Section        0  heapauxi.o(.text)
+    .ARM.__AT_0x000007F8                     0x000007f8   Section        8  systeminit.o(.ARM.__AT_0x000007F8)
+    __tagsym$$used                           0x000007f8   Number         0  systeminit.o(.ARM.__AT_0x000007F8)
+    HEAP                                     0x20000000   Section        0  startup_nuc122.o(HEAP)
+    STACK                                    0x20000000   Section     1024  startup_nuc122.o(STACK)
+    Heap_Mem                                 0x20000000   Data           0  startup_nuc122.o(HEAP)
+    Stack_Mem                                0x20000000   Data        1024  startup_nuc122.o(STACK)
+    __initial_sp                             0x20000400   Data           0  startup_nuc122.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv3M$S$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$EBA8$STANDARDLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_nuc122.o(RESET)
+    jump2iap                                 0x000000c1   Thumb Code     8  jump2iap.o(.emb_text)
+    Reset_Handler                            0x000000cd   Thumb Code    26  startup_nuc122.o(.text)
+    NMI_Handler                              0x000000e7   Thumb Code     2  startup_nuc122.o(.text)
+    HardFault_Handler                        0x000000e9   Thumb Code     2  startup_nuc122.o(.text)
+    SVC_Handler                              0x000000eb   Thumb Code     2  startup_nuc122.o(.text)
+    PendSV_Handler                           0x000000ed   Thumb Code     2  startup_nuc122.o(.text)
+    SysTick_Handler                          0x000000ef   Thumb Code     2  startup_nuc122.o(.text)
+    BOD_IRQHandler                           0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    BTIMER_IRQHandler                        0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    EINT0_IRQHandler                         0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    EINT1_IRQHandler                         0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    GPAB_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    GPCD_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    I2C_IRQHandler                           0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    PS2_IRQHandler                           0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    PWMA_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    PWRWU_IRQHandler                         0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    RTC_IRQHandler                           0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    SPI0_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    SPI1_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    TIMER_IRQHandler                         0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    TMR0_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    TMR1_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    TMR2_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    TMR3_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    UART0_IRQHandler                         0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    UART1_IRQHandler                         0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    USBD_IRQHandler                          0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    WDT_IRQHandler                           0x000000f1   Thumb Code     0  startup_nuc122.o(.text)
+    __user_initial_stackheap                 0x000000f5   Thumb Code     0  startup_nuc122.o(.text)
+    SystemInit                               0x00000121   Thumb Code   524  systeminit.o(.text)
+    iap_InitMPU                              0x00000341   Thumb Code    74  mpu.o(.text)
+    __use_two_region_memory                  0x00000395   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_escrow$2region                 0x00000397   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_expand$2region                 0x00000399   Thumb Code     2  heapauxi.o(.text)
+    CodeCheckSum                             0x000007f8   Data           8  systeminit.o(.ARM.__AT_0x000007F8)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000cd
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00000800, Max: 0x00000800, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x00000800, Max: 0x00000800, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x000000c0   Data   RO            3    RESET               startup_nuc122.o
+    0x000000c0   0x0000000c   Code   RO           29    .emb_text           jump2iap.o
+    0x000000cc   0x00000054   Code   RO            4  * .text               startup_nuc122.o
+    0x00000120   0x00000220   Code   RO           10    .text               systeminit.o
+    0x00000340   0x00000054   Code   RO           38    .text               mpu.o
+    0x00000394   0x00000006   Code   RO           77    .text               c_p.l(heapauxi.o)
+    0x0000039a   0x0000045e   PAD
+    0x000007f8   0x00000008   Data   RW           11    .ARM.__AT_0x000007F8  systeminit.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000400, Max: 0x00004000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000000   Zero   RW            2    HEAP                startup_nuc122.o
+    0x20000000   0x00000400   Zero   RW            1    STACK               startup_nuc122.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+        12          4          0          0          0        364   jump2iap.o
+        84         10          0          0          0        594   mpu.o
+        84         36        192          0       1024        696   startup_nuc122.o
+       544         20          0          8          0       3052   systeminit.o
+
+    ----------------------------------------------------------------------
+       724         70        192          8       1024       4706   Object Totals
+         0          0          0          0          0          0   (incl. Generated)
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         6          0          0          0          0        136   heapauxi.o
+
+    ----------------------------------------------------------------------
+         8          0          0       1116          0        136   Library Totals
+         2          0          0       1116          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+         6          0          0          0          0        136   c_p.l
+
+    ----------------------------------------------------------------------
+         8          0          0       1116          0        136   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+       732         70        192       1124       1024       4746   Grand Totals
+       732         70        192       1124       1024       4746   ELF Image Totals
+       732         70        192       1124          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                  924 (   0.90kB)
+    Total RW  Size (RW Data + ZI Data)              2148 (   2.10kB)
+    Total ROM Size (Code + RO Data + RW Data)       2048 (   2.00kB)
+
+==============================================================================
+

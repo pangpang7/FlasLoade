@@ -1,0 +1,11 @@
+--cpu Cortex-M0+
+".\system_si6600.o"
+".\startup_si6600.o"
+".\sysclk.o"
+".\uart_demo2.o"
+".\uartslave.o"
+".\sw_lib.o"
+--strict --scatter ".\Demo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Demo.map" -o .\Demo.axf

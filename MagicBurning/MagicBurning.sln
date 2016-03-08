@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MagicBurning", "MagicBurning\MagicBurning.vcproj", "{8E3C0CB0-BFCB-46F0-82C6-B35D8627053E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Files", "Files\Files.vcproj", "{7613CD5B-7604-4452-82D7-1E3BF33E0545}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BLLIB", "BLLIB\BLLIB.vcproj", "{4621D043-8C4D-4335-9542-FD24405F29A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "USBHIDBLLIB", "USBHIDBLLIB\USBHIDBLLIB.vcproj", "{C2DE0679-4D37-4EDE-A6BD-1E99DEE6BDFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{497E3052-3668-48FA-B358-BAE7937DFB3E}"
+	ProjectSection(SolutionItems) = preProject
+		doc\Readme.txt = doc\Readme.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLBurning", "CLBurning\CLBurning.vcproj", "{9F699DA9-FEC9-4A03-9CE9-8F8D789A6A53}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SIMBLLIB", "SIMBLLIB\SIMBLLIB.vcproj", "{06B8B915-F7D8-439D-9451-202EAE3FF3A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E3C0CB0-BFCB-46F0-82C6-B35D8627053E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E3C0CB0-BFCB-46F0-82C6-B35D8627053E}.Debug|Win32.Build.0 = Debug|Win32
+		{8E3C0CB0-BFCB-46F0-82C6-B35D8627053E}.Release|Win32.ActiveCfg = Release|Win32
+		{8E3C0CB0-BFCB-46F0-82C6-B35D8627053E}.Release|Win32.Build.0 = Release|Win32
+		{7613CD5B-7604-4452-82D7-1E3BF33E0545}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7613CD5B-7604-4452-82D7-1E3BF33E0545}.Debug|Win32.Build.0 = Debug|Win32
+		{7613CD5B-7604-4452-82D7-1E3BF33E0545}.Release|Win32.ActiveCfg = Release|Win32
+		{7613CD5B-7604-4452-82D7-1E3BF33E0545}.Release|Win32.Build.0 = Release|Win32
+		{4621D043-8C4D-4335-9542-FD24405F29A1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4621D043-8C4D-4335-9542-FD24405F29A1}.Debug|Win32.Build.0 = Debug|Win32
+		{4621D043-8C4D-4335-9542-FD24405F29A1}.Release|Win32.ActiveCfg = Release|Win32
+		{4621D043-8C4D-4335-9542-FD24405F29A1}.Release|Win32.Build.0 = Release|Win32
+		{C2DE0679-4D37-4EDE-A6BD-1E99DEE6BDFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2DE0679-4D37-4EDE-A6BD-1E99DEE6BDFB}.Debug|Win32.Build.0 = Debug|Win32
+		{C2DE0679-4D37-4EDE-A6BD-1E99DEE6BDFB}.Release|Win32.ActiveCfg = Release|Win32
+		{C2DE0679-4D37-4EDE-A6BD-1E99DEE6BDFB}.Release|Win32.Build.0 = Release|Win32
+		{9F699DA9-FEC9-4A03-9CE9-8F8D789A6A53}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F699DA9-FEC9-4A03-9CE9-8F8D789A6A53}.Debug|Win32.Build.0 = Debug|Win32
+		{9F699DA9-FEC9-4A03-9CE9-8F8D789A6A53}.Release|Win32.ActiveCfg = Release|Win32
+		{9F699DA9-FEC9-4A03-9CE9-8F8D789A6A53}.Release|Win32.Build.0 = Release|Win32
+		{06B8B915-F7D8-439D-9451-202EAE3FF3A4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{06B8B915-F7D8-439D-9451-202EAE3FF3A4}.Debug|Win32.Build.0 = Debug|Win32
+		{06B8B915-F7D8-439D-9451-202EAE3FF3A4}.Release|Win32.ActiveCfg = Release|Win32
+		{06B8B915-F7D8-439D-9451-202EAE3FF3A4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

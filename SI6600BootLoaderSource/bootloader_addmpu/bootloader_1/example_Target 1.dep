@@ -1,0 +1,12 @@
+Dependencies for Project 'example', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_NUC122.s)(0x56CA75C8)(--cpu Cortex-M0+ --li --pd "__EVAL SETA 1" -g --apcs=interwork -I..\head -I..\startup-I E:\project\SI6600\ÍÑ»úÉÕÂ¼Æ÷\release_20160227\project\release\SI6600BootLoaderSource\bootloader_addmpu\bootloader_1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include--pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1"--list .\listings\startup_nuc122.lst --xref -o .\startup_nuc122.o --depend .\startup_nuc122.d)
+F (.\systeminit.c)(0x56D16C45)(-c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork -I..\head-I E:\project\SI6600\ÍÑ»úÉÕÂ¼Æ÷\release_20160227\project\release\SI6600BootLoaderSource\bootloader_addmpu\bootloader_1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-D_RTE_ -DARMCM0P-o .\systeminit.o --omf_browse .\systeminit.crf --depend .\systeminit.d)
+I (../head/boot.h)(0x56D16B5D)
+F (.\jump2iap.c)(0x56C6BEEF)(-c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork -I..\head-I E:\project\SI6600\ÍÑ»úÉÕÂ¼Æ÷\release_20160227\project\release\SI6600BootLoaderSource\bootloader_addmpu\bootloader_1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-D_RTE_ -DARMCM0P-o .\jump2iap.o --omf_browse .\jump2iap.crf --depend .\jump2iap.d)
+F (.\mpu.c)(0x56CDC663)(-c --cpu Cortex-M0+ -D__EVAL --li -g -O0 --apcs=interwork -I..\head-I E:\project\SI6600\ÍÑ»úÉÕÂ¼Æ÷\release_20160227\project\release\SI6600BootLoaderSource\bootloader_addmpu\bootloader_1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-D_RTE_ -DARMCM0P-o .\mpu.o --omf_browse .\mpu.crf --depend .\mpu.d)
+I (..\head\SI6600.h)(0x56C5C69A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\head\system_SI6600.h)(0x56B884EE)

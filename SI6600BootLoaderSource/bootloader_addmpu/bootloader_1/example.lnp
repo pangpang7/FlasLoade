@@ -1,0 +1,9 @@
+--cpu Cortex-M0+
+".\startup_nuc122.o"
+".\systeminit.o"
+".\jump2iap.o"
+".\mpu.o"
+--strict --scatter ".\example.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\example.map" -o .\example.axf

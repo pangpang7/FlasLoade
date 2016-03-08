@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\obj\hw_config.o" ".\obj\main.o" ".\obj\stm32f10x_it.o" ".\obj\usb_desc.o" ".\obj\usb_endp.o" ".\obj\usb_istr.o" ".\obj\usb_prop.o" ".\obj\usb_pwr.o" ".\obj\blslave.o" ".\obj\offlinedownloadctrl.o" ".\obj\sw_lib.o" ".\obj\spi.o" ".\obj\stc.o" ".\obj\uart.o" ".\obj\swd.o" ".\obj\usb_core.o" ".\obj\usb_init.o" ".\obj\usb_int.o" ".\obj\usb_mem.o" ".\obj\usb_regs.o" "..\lib\STM32F10xR.LIB" ".\obj\stm32f10x_vector.o" ".\obj\dap.o" ".\obj\sw_dp.o" ".\obj\swd_host.o" ".\obj\target_reset.o" --strict --scatter ".\Obj\MagicProgrammer.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\MagicProgrammer.map" -o ".\Obj\MagicProgrammer.axf"

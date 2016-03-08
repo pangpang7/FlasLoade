@@ -1,0 +1,4 @@
+Dependencies for Project 'example', Target 'Target 1': (DO NOT MODIFY !)
+F (.\test.c)(0x567A3786)(-c --cpu Cortex-M0 -D__EVAL --li -g -O0 --apcs=interwork -I..\head-I E:\project\SI6600\ASIC_DEBUG\pattern\bootloader\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include-DARMCM0-o .\outputs\test.o --omf_browse .\outputs\test.crf --depend .\outputs\test.d)
+I (../head/reg.h)(0x5676ACCF)
+F (.\startup_NUC122.s)(0x56769A4B)(--cpu Cortex-M0 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I..\head -I..\startup-I E:\project\SI6600\ASIC_DEBUG\pattern\bootloader\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "ARMCM0 SETA 1"--list .\listings\startup_nuc122.lst --xref -o .\outputs\startup_nuc122.o --depend .\outputs\startup_nuc122.d)

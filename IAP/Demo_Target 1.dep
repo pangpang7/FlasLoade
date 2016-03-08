@@ -1,0 +1,45 @@
+Dependencies for Project 'Demo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\DEVICE\system_SI6600.c)(0x56B884FC)(-c --cpu Cortex-M0+ --li -g -O3 --apcs=interwork -I.\DEVICE -I.\USER-I C:\Users\Canhua.Yang\Desktop\project\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-D_RTE_ -DARMCM0P-o .\system_si6600.o --omf_browse .\system_si6600.crf --depend .\system_si6600.d)
+I (DEVICE\SI6600.h)(0x56D16D32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (DEVICE\system_SI6600.h)(0x56B884EE)
+F (.\DEVICE\startup_SI6600.s)(0x56D063F4)(--cpu Cortex-M0+ --li -g --apcs=interwork -I C:\Users\Canhua.Yang\Desktop\project\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include--pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1"--list .\listings\startup_si6600.lst --xref -o .\startup_si6600.o --depend .\startup_si6600.d)
+F (.\USER\readme.txt)(0x569F8018)()
+F (.\USER\sysclk.c)(0x56A0D240)(-c --cpu Cortex-M0+ --li -g -O3 --apcs=interwork -I.\DEVICE -I.\USER-I C:\Users\Canhua.Yang\Desktop\project\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-D_RTE_ -DARMCM0P-o .\sysclk.o --omf_browse .\sysclk.crf --depend .\sysclk.d)
+I (.\DEVICE\SI6600.h)(0x56D16D32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (.\DEVICE\system_SI6600.h)(0x56B884EE)
+I (USER\sysclk.h)(0x56776B16)
+F (.\USER\uart_demo2.c)(0x56B89818)(-c --cpu Cortex-M0+ --li -g -O3 --apcs=interwork -I.\DEVICE -I.\USER-I C:\Users\Canhua.Yang\Desktop\project\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-D_RTE_ -DARMCM0P-o .\uart_demo2.o --omf_browse .\uart_demo2.crf --depend .\uart_demo2.d)
+I (.\DEVICE\SI6600.h)(0x56D16D32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (.\DEVICE\system_SI6600.h)(0x56B884EE)
+I (USER\sysclk.h)(0x56776B16)
+I (USER\UartSlave.h)(0x56B89808)
+F (.\USER\UartSlave.c)(0x56D16E93)(-c --cpu Cortex-M0+ --li -g -O3 --apcs=interwork -I.\DEVICE -I.\USER-I C:\Users\Canhua.Yang\Desktop\project\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-D_RTE_ -DARMCM0P-o .\uartslave.o --omf_browse .\uartslave.crf --depend .\uartslave.d)
+I (USER\UartSlave.h)(0x56B89808)
+I (.\DEVICE\SI6600.h)(0x56D16D32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (.\DEVICE\system_SI6600.h)(0x56B884EE)
+I (USER\sw_lib.h)(0x56B8883C)
+I (USER\SI6600BL.h)(0x56D16B15)
+F (.\USER\sw_lib.c)(0x56B2F16C)(-c --cpu Cortex-M0+ --li -g -O3 --apcs=interwork -I.\DEVICE -I.\USER-I C:\Users\Canhua.Yang\Desktop\project\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-D_RTE_ -DARMCM0P-o .\sw_lib.o --omf_browse .\sw_lib.crf --depend .\sw_lib.d)
+I (USER\sw_lib.h)(0x56B8883C)
+I (.\DEVICE\SI6600.h)(0x56D16D32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (.\DEVICE\system_SI6600.h)(0x56B884EE)

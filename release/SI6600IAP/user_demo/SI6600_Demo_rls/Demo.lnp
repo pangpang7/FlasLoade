@@ -1,0 +1,10 @@
+--cpu Cortex-M0+
+".\system_si6600.o"
+".\startup_si6600.o"
+".\sysclk.o"
+".\gpio_demo1.o"
+".\si6600iap.o"
+--strict --scatter ".\Demo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Demo.map" -o .\Demo.axf

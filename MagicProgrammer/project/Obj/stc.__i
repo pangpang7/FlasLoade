@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I..\include -I..\USB -I..\include\STM32F10x -I..\Swd -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F10x" -o ".\Obj\stc.o" --omf_browse ".\Obj\stc.crf" --depend ".\Obj\stc.d" "..\source\STC.c"

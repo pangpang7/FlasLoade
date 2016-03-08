@@ -1,0 +1,27 @@
+Dependencies for Project 'Demo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\DEVICE\system_SI6600.c)(0x56309CA4)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I.\DEVICE -I.\USER-I C:\Users\Canhua.Yang\Desktop\project\release\SI6600IAP\user_demo\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-D_RTE_ -DARMCM0P-o .\system_si6600.o --omf_browse .\system_si6600.crf --depend .\system_si6600.d)
+I (DEVICE\SI6600.h)(0x569F7C26)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (DEVICE\system_SI6600.h)(0x562DF34E)
+F (.\DEVICE\startup_SI6600.s)(0x5649C2C6)(--cpu Cortex-M0+ --li -g --apcs=interwork -I C:\Users\Canhua.Yang\Desktop\project\release\SI6600IAP\user_demo\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include--pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1"--list .\listings\startup_si6600.lst --xref -o .\startup_si6600.o --depend .\startup_si6600.d)
+F (.\USER\readme.txt)(0x56CC55FA)()
+F (.\USER\sysclk.c)(0x569F808E)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I.\DEVICE -I.\USER-I C:\Users\Canhua.Yang\Desktop\project\release\SI6600IAP\user_demo\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-D_RTE_ -DARMCM0P-o .\sysclk.o --omf_browse .\sysclk.crf --depend .\sysclk.d)
+I (.\DEVICE\SI6600.h)(0x569F7C26)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (.\DEVICE\system_SI6600.h)(0x562DF34E)
+I (USER\sysclk.h)(0x56776B16)
+F (.\USER\gpio_demo1.c)(0x56D08C78)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I.\DEVICE -I.\USER-I C:\Users\Canhua.Yang\Desktop\project\release\SI6600IAP\user_demo\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-D_RTE_ -DARMCM0P-o .\gpio_demo1.o --omf_browse .\gpio_demo1.crf --depend .\gpio_demo1.d)
+I (.\DEVICE\SI6600.h)(0x569F7C26)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0plus.h)(0x55093C04)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
+I (.\DEVICE\system_SI6600.h)(0x562DF34E)
+I (USER\sysclk.h)(0x56776B16)
+F (.\IAP\si6600iap.c)(0x56D16F46)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I.\DEVICE -I.\USER-I C:\Users\Canhua.Yang\Desktop\project\release\SI6600IAP\user_demo\SI6600_Demo_rls\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-D_RTE_ -DARMCM0P-o .\si6600iap.o --omf_browse .\si6600iap.crf --depend .\si6600iap.d)
